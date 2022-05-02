@@ -1,9 +1,10 @@
 # Artemis
 ## [Project page](https://haiminluo.github.io/publication/artemis/) |  [Paper](https://arxiv.org/abs/2202.05628)
 This repository contains a pytorch implementation for the paper: [Artemis: Articulated Neural Pets with Appearance and Motion Synthesis](https://arxiv.org/abs/2202.05628). In this paper, we present **ARTEMIS**, a novel neural modeling and rendering pipeline for generating **ART**iculated neural pets with app**E**arance and **M**otion synthes**IS**.<br><br>
+![Artemis_overview](medias/featured1.png "Magic Gardens")
 
 ## Overview
-![Artemis_overview](medias/featured1.png "Magic Gardens")
+![Artemis_overview](medias/overview_v3-1.png "Magic Gardens")
 
 ## Quick Start
 The code is coming soon...
