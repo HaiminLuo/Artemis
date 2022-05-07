@@ -19,7 +19,7 @@ If you find our code or paper helps, please consider citing:
   year={2022}
 }
 ```
-And also consider citing another related and intresting work, [Convolutional Neural Opacity Radiance Fields](https://www.computer.org/csdl/proceedings-article/iccp/2021/09466273/1uSSXDOinlu):
+And also consider citing another related and intresting work for high-quality photo-realistic rendering of real fuzzy objects: [Convolutional Neural Opacity Radiance Fields](https://www.computer.org/csdl/proceedings-article/iccp/2021/09466273/1uSSXDOinlu):
 ```
 @INPROCEEDINGS {9466273,
 author = {H. Luo and A. Chen and Q. Zhang and B. Pang and M. Wu and L. Xu and J. Yu},
