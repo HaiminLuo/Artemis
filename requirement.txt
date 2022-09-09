@@ -1,0 +1,11 @@
+yacs
+numpy
+torch
+torchvision
+PIL
+argparse
+opencv-python
+imageio
+imageio-ffmpeg
+IPython
+tqdm
