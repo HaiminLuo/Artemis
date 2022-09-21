@@ -169,8 +169,11 @@ else:
                                                     skeleton=skeleton, vb_weights=skinning_weights,
                                                     vb_indices=joint_index, radius=volume_radius,
                                                     max_depth=tree_depth)
-                seq_trees[seq_id][frame_id] = t
-
+                # cache the tree for faster rendering if gpu memory is enough
+                # seq_trees[seq_id][frame_id] = t 
+            else:
+                t = seq_trees[seq_id][frame_id]
+                
             rgb, mask, feature = render_image(cfg, model, Ks[cam_id], Ts[cam_id], (img_size[1], img_size[0]),
                                             tree=seq_trees[seq_id][frame_id],
                                             matrices=bone_matrices[seq_id][frame_id],
