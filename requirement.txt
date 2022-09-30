@@ -2,7 +2,7 @@ yacs
 numpy
 torch
 torchvision
-PIL
+pillow
 argparse
 opencv-python
 imageio

@@ -90,14 +90,14 @@ cat
 |     └── Bones_0000.inf          - The rest pose.
 | 
 ├──  CamPose.inf				          - Camera extrinsics. In each row, the 3x4 [R T] matrix is displayed in columns, with the third column followed by columns 1, 2, and 4, where R*X^{camera}+T=X^{world}.
-│
+│ 
 └──  Intrinsic.inf				        - Camera intrinsics. The format of each intrinsics is: "idx \n fx 0 cx \n 0 fy cy \n 0 0 1 \n \n" (idx starts from 0)
 │
 └──  sequences				            - Motion sequences. The format of each motion is: "motion_name frames\n"
 ```
 
 ## Pre-trained model
-Our pre-trained NGI models (e.g., `cat`, `wolf`, `panda`, ...) described in our paper can be found at [pre-trained models](https://shanghaitecheducn-my.sharepoint.com/:f:/g/personal/luohm_shanghaitech_edu_cn/Et60lJpJdp5DoyQF7uzP6jgB_JEW4LIHixAyXEiVhHT3Vw?e=0UtltU).
+Our pre-trained NGI models (e.g., `cat`, `wolf`, `panda`, ...) described in our paper can be found at [pre-trained models](https://shanghaitecheducn-my.sharepoint.com/:f:/g/personal/luohm_shanghaitech_edu_cn/EgJC3IrKA1pPjYTFiO2rVswBW4QVHkV54TqGxcxMIr-Bvw?e=H3xhTG).
 
 
 ## Rendering
